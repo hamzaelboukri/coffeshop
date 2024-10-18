@@ -56,7 +56,7 @@ body {
    
 }
  .bac{
- background-image:url("../image/thumb.jpg");
+ background-image:url("./image/thumb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
    
