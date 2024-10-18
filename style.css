@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+ position: relative;
+ background:radial-gradient(circle, #aa5916da, #5f2003);
+display: block;
+
+padding: 10px;
+
+list-style: none;
+
+}
+
+
+.center {
+  display: flex; 
+  justify-content: center; 
+  gap: 100px;
+  text-decoration: none;
+  border-radius: 2px;
+  list-style: none;
+  
+}
+
+#left  {
+
+    display: block;
+    position: relative;
+    left: 0;
+    block-size:100%;
+    background-color: #8d5025af;
+    color: white;
+}
+
+.center1 a{
+    text-decoration: none   ;
+    color: aliceblue;
+    border-bottom: 1px solid;
+}
+
+h2 {
+    text-align: center;
+    
+
+
+
+}
+
+ 
+body {
+    font-family: Arial, sans-serif;
+   
+}
+ .bac{
+ background-image:url("../image/thumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+    
+h1{
+    color: #f3f2f1;
+   
+    text-align: left;
+    padding-top: 40px;
+    font-size: 5rem;
+    line-height: 1.5;        
+    text-shadow: 1px 1px 2px rgb(255, 187, 0);
+    text-align: center;
+   
+}
+.header1{
+    
+    position: relative;
+  background:   radial-gradient(#aa5916da, #5f2003);
+   display: block;
+   block-size: 100%;
+   padding: 10px;
+   
+   
+   }
+.pagecontact{
+   
+    background-color: aliceblue;
+}
+#con{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 5rem;
+    line-height: 1.5;        
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    background:radial-gradient(circle, #aa5916da, #5f2003);
+    border-bottom: #E8D2C2;
+    padding-bottom:50px ;
+}
+.order{
+
+    color: blanchedalmond;
+  border: 2px solid rgba(119, 67, 7, 0.911);
+   border-radius:10px;
+
+   background-color: #D2691E ;
+left: 600px;
+   display: inline-block;
+   font-size: 2rem;
+   padding: 4px 2px; 
+ 
+  position: relative;
+   transition: background-color 0.3s; 
+
+}
+.order:hover{
+
+    background-color: #3b1e02;
+    transform: scale(1.1);
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.ph {
+    background:radial-gradient(circle, #5f2003, #aa5916da);
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.map {
+    margin-left: 400px ;
+    
+   
+}
+
+.inf {
+    background:radial-gradient(circle, #5f2003, #aa5916da);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 200px;
+    
+}
+
+
+.inf h3 {
+    color: #f3f2f1; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.inf form{
+    padding: 10px;
+}
+.inf input[type="text"],
+.inf input[type="email"],
+.inf input[type="tel"],
+.inf input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.inf textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f0eb;
+    color: rgb(29, 26, 26);
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 16px;
+  }
+  .send{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(219, 207, 202);
+     border-radius:12px;
+     background-color: #24150800 ;
+     display: block;
+     font-size: 1rem;
+     padding: 4px 2px; 
+     cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px auto;
+  }
+ .main {
+    background-color: #e9a456;
+
+  }
+  
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* position: absolute; */
+   column-gap: 80px;
+   margin: 0 40px 40px 40px; 
+   
+    
+}
+.menu-header{
+    
+    display: flex;
+    flex-flow: column;
+}
+.menu-1{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+   column-gap: 80px;
+   row-gap: 100px;
+   margin: 0 40px 40px 40px;
+  
+    
+    
+}
+
+.buy{
+    margin-top: 10px;
+    color: rgb(253, 253, 253);
+    border: 2px solid rgba(119, 67, 7, 0.911);
+     border-radius:10px;
+     
+     list-style: none;
+     background-color: #D2691E ;
+ 
+     display: block;
+     font-size: 2rem;
+     padding: 4px 2px; 
+   
+    position: relative;
+     transition: background-color 0.6s;
+     left: 100px;
+     margin-bottom:20px ;
+}
+.buy:hover{
+
+    background-color: #3b1e02;
+    transform: scale(1.1);
+}
+.parg{
+    font-family: "Georgia", serif;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer{
+
+    background:   radial-gradient(circle,  #aa5916da, #5f2003);
+   
+    text-align: center;
+    
+    
+}
