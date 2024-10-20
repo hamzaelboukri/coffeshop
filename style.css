@@ -5,6 +5,7 @@
 }
 
 .header{
+    text-decoration: none;
  position: relative;
  background:radial-gradient(circle, #aa5916da, #5f2003);
 display: block;
@@ -110,7 +111,8 @@ left: 600px;
    display: inline-block;
    font-size: 2rem;
    padding: 4px 2px; 
- 
+   text-decoration: none;
+ padding-inline: 10px;
   position: relative;
    transition: background-color 0.3s; 
 
